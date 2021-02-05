@@ -1,0 +1,35 @@
+
+# 忽略所有隐藏文件
+.* 
+# 不忽略该文件
+!.gitignore
+
+/src/build-*
+/src/DataClient/*.user
+*.Debug
+*.Release
+*.o
+
+release
+debug
+
+# 忽略 qmake 生成的 Makefile 文件
+Makefile* 
+
+# vs
+*.vcxproj
+*.sln
+*.vcxproj.filters
+*.h.cpp
+
+*.user
+
+#bin
+/bin/
+
+
+#autosave文件
+*.autosave
+
+*.VC.db
+*.VC.VC.opendb
